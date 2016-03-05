@@ -1,0 +1,19 @@
+name: BedWarsPE
+version: 1.0.0beta
+api: 1.13.1
+main: BedWarsPE\BedWars
+author: Survingo
+authors: [Survingo, (here Collobrators)]
+description: PocketMine BedWars!
+
+commands:
+ bedwars:
+  description: Start BedWars!
+  usage: "/bedwars"
+  aliases: [bw]
+  permission: bw.main
+
+permissions:
+ bw.main:
+  default: true
+  description: Allow using /bedwars!
