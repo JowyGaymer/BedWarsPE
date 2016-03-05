@@ -3,7 +3,7 @@ version: 1.0.0beta
 api: 1.13.1
 main: BedWarsPE\BedWars
 author: Survingo
-authors: [Survingo, (here Collobrators)]
+authors: [Survingo, (here Collaborators)]
 description: PocketMine BedWars!
 
 commands:
