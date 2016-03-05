@@ -10,4 +10,9 @@ use pocketmine\block\Block;
 use pocketmine\utils\Config;
 use pocketmine\utils\TextFormat;
 
-class BedWars extends PluginBase
+class BedWars extends PluginBase implements Listener {
+  public function onEnable() {
+    $this->safeResource("config.yml");
+    $this->getServer()->getPluginManager()->registerEvents($this,$this);
+  }
+}
