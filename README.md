@@ -2,10 +2,8 @@
 BedWars Plugin for PocketMine-MP 1.6dev
 API 1.13.1!
 
-Currently unfinished
+# Notes
+This isn't original code!
+The original plugin beta is on my computer.
 
-To-do:
-BedWars Lobby,
-Villager Shop,
-Teams,
-and more
+I slowed down coding cause school
