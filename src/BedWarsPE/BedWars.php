@@ -15,4 +15,5 @@ class BedWars extends PluginBase implements Listener {
     $this->safeResource("config.yml");
     $this->getServer()->getPluginManager()->registerEvents($this,$this);
   }
+  // This is not original code
 }
